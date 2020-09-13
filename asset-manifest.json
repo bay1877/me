@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/me/static/css/main.e9d077cf.chunk.css",
-    "main.js": "/me/static/js/main.77e0701a.chunk.js",
-    "main.js.map": "/me/static/js/main.77e0701a.chunk.js.map",
+    "main.js": "/me/static/js/main.a74be318.chunk.js",
+    "main.js.map": "/me/static/js/main.a74be318.chunk.js.map",
     "runtime-main.js": "/me/static/js/runtime-main.1be278ff.js",
     "runtime-main.js.map": "/me/static/js/runtime-main.1be278ff.js.map",
     "static/js/2.a76a06ef.chunk.js": "/me/static/js/2.a76a06ef.chunk.js",
     "static/js/2.a76a06ef.chunk.js.map": "/me/static/js/2.a76a06ef.chunk.js.map",
     "index.html": "/me/index.html",
-    "precache-manifest.e9091aa2b0f6c933f04fbd467807fb63.js": "/me/precache-manifest.e9091aa2b0f6c933f04fbd467807fb63.js",
+    "precache-manifest.0ec6772c786d17193862ac98846cc73b.js": "/me/precache-manifest.0ec6772c786d17193862ac98846cc73b.js",
     "service-worker.js": "/me/service-worker.js",
     "static/css/main.e9d077cf.chunk.css.map": "/me/static/css/main.e9d077cf.chunk.css.map",
     "static/js/2.a76a06ef.chunk.js.LICENSE.txt": "/me/static/js/2.a76a06ef.chunk.js.LICENSE.txt",
@@ -64,13 +64,13 @@
     "static/media/Outdoors.PNG": "/me/static/media/Outdoors.8f26d8c4.PNG",
     "static/media/Projects.jpg": "/me/static/media/Projects.cddb4ed1.jpg",
     "static/media/RIT.jpeg": "/me/static/media/RIT.c47e4066.jpeg",
-    "static/media/Skills2.jpeg": "/me/static/media/Skills2.f788f549.jpeg",
+    "static/media/Skills.PNG": "/me/static/media/Skills.e39981e5.PNG",
     "static/media/Watersports.JPG": "/me/static/media/Watersports.2d100928.JPG"
   },
   "entrypoints": [
     "static/js/runtime-main.1be278ff.js",
     "static/js/2.a76a06ef.chunk.js",
     "static/css/main.e9d077cf.chunk.css",
-    "static/js/main.77e0701a.chunk.js"
+    "static/js/main.a74be318.chunk.js"
   ]
 }
