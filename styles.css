@@ -1,0 +1,110 @@
+body {
+	margin: 0;
+	max-width: 99vw;
+	height: auto;
+	/* background: url("/src/img/black.jpeg") fixed; */
+	background: hsla(0, 0%, 20%, 1);
+	background: radial-gradient(circle, hsla(0, 0%, 20%, 1) 0%, hsla(0, 0%, 11%, 1) 100%);
+	background: -moz-radial-gradient(circle, hsla(0, 0%, 20%, 1) 0%, hsla(0, 0%, 11%, 1) 100%);
+	background: -webkit-radial-gradient(circle, hsla(0, 0%, 20%, 1) 0%, hsla(0, 0%, 11%, 1) 100%);
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#343434", endColorstr="#1C1C1C", GradientType=1 );
+  }
+  
+  a, a:visited {
+	text-decoration: none;
+	color: white;
+  }
+  
+  a:hover {
+	text-decoration: underline;
+	color: cornflowerblue;
+  }
+  
+  h1 {
+	color: snow;
+	text-align:center;
+	/* display: inline-block; */
+	font-family: Arial, Helvetica, sans-serif;
+	/* text-shadow: 1pxs 2px 0 black; */
+	font-size: 16px;
+  }
+  
+  ul {
+	color: #CED4DA;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: auto;
+	/* text-align: center; */
+  }
+  
+  li {
+	margin-right: 1vw;
+	margin-top: 10px;
+	font-size: 14px;
+  }
+  
+  .header {
+	display: grid;
+	grid-template-columns: 50vw 25vw 25vw;
+  }
+  
+  .vcenter {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 80vw;
+	transform: translate(-50%, -50%);
+	/* text-align: center; */
+  }
+  
+  @media only screen and (min-width: 768px) {
+	h1 {
+	  color: snow;
+	  text-align:center;
+	  /* display: inline-block; */
+	  font-family: Arial, Helvetica, sans-serif;
+	  /* text-shadow: 1pxs 2px 0 black; */
+	  font-size: 24px;
+	}
+  
+	li {
+	  margin-right: 1vw;
+	  margin-top: 10px;
+	  font-size: 20px;
+	}
+  
+	.header {
+	  display: grid;
+	  grid-template-columns: 90vw 5vw 5vw;
+	}
+  
+	.vcenter {
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  width: 75vw;
+	  transform: translate(-50%, -50%);
+	  /* text-align: center; */
+	}
+  }
+  
+  @media only screen and (min-width: 1000px) {
+	h1 {
+	  color: snow;
+	  text-align:center;
+	  /* display: inline-block; */
+	  font-family: Arial, Helvetica, sans-serif;
+	  /* text-shadow: 1pxs 2px 0 black; */
+	  font-size: 32px;
+	}
+  
+	li {
+	  margin-right: 1vw;
+	  margin-top: 10px;
+	  font-size: 28px;
+	}
+  
+	.header {
+	  display: grid;
+	  grid-template-columns: 90vw 5vw 5vw;
+	}
+  }
